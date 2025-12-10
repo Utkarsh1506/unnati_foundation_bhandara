@@ -6,16 +6,30 @@ import { Users, Heart, Award, Mail, Phone } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Suhas Khobragade",
-    position: "Vice President",
-    image: "/static/Kapil Ramteke - Vice President.jpeg.jpg",
+    name: "Balkrushna Suratane",
+    position: "President",
+    image: "/static/Balkrushna_Suratane_President.jpg",
     email: "contact@unnati.org",
     phone: "+91 XXXXXXXXXX"
   },
   {
     name: "Jitendra Raghorte",
-    position: "Joint Secretary",
+    position: "Vice President",
     image: "/static/Jitendra Raghorte - Joint Secretary.jpg",
+    email: "contact@unnati.org",
+    phone: "+91 XXXXXXXXXX"
+  },
+  {
+    name: "Suhas Khobragade",
+    position: "Secretary",
+    image: "/static/Suhas_Khobragade_Secretary.jpg",
+    email: "contact@unnati.org",
+    phone: "+91 XXXXXXXXXX"
+  },
+  {
+    name: "Kapil Ramteke",
+    position: "Joint Secretary",
+    image: "/static/Kapil Ramteke - Vice President.jpeg.jpg",
     email: "contact@unnati.org",
     phone: "+91 XXXXXXXXXX"
   },
@@ -27,7 +41,7 @@ const teamMembers = [
     phone: "+91 XXXXXXXXXX"
   },
   {
-    name: "Hemant Kumar Bramhankar",
+    name: "Hemantkumar Bramhankar",
     position: "Member",
     image: "/static/hemant kumar bramhankar - member.jpg",
     email: "contact@unnati.org",
