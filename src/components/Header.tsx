@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
@@ -22,8 +23,14 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-3 font-bold text-ink hover:opacity-80 transition-opacity">
-            <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-bold text-sm">
-              UF
+            <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
+              <Image 
+                src="/static/unnati_NGO logo.jpg" 
+                alt="Unnati Foundation Logo" 
+                width={48} 
+                height={48}
+                className="object-contain"
+              />
             </div>
             <div className="hidden sm:flex flex-col">
               <span className="text-sm md:text-base font-bold text-ink">Unnati Foundation</span>
