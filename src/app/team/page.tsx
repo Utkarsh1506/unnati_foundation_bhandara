@@ -10,7 +10,7 @@ const teamMembers = [
     position: "President",
     image: "/static/Balkrushna_Suratane_President.jpg",
     email: "contact@unnati.org",
-    phone: "+91 XXXXXXXXXX"
+    phone: "+91 9665241122"
   },
   {
     name: "Jitendra Raghorte",
@@ -24,7 +24,7 @@ const teamMembers = [
     position: "Secretary",
     image: "/static/Suhas_Khobragade_Secretary.jpg",
     email: "contact@unnati.org",
-    phone: "+91 XXXXXXXXXX"
+    phone: "+91 9049338626"
   },
   {
     name: "Kapil Ramteke",
