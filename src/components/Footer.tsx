@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
@@ -11,8 +12,14 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-2">
-            <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-bold mb-4">
-              UF
+            <div className="w-12 h-12 flex items-center justify-center flex-shrink-0 mb-4">
+              <Image 
+                src="/static/unnati_NGO logo.jpg" 
+                alt="Unnati Foundation Logo" 
+                width={48} 
+                height={48}
+                className="object-contain"
+              />
             </div>
             <h3 className="font-bold text-lg mb-2">Unnati Foundation Bhandara</h3>
             <p className="text-lg text-sand/70 mb-4">
